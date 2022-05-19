@@ -23,8 +23,8 @@ from discord.ext.commands import check
 # Read the Data files and store them in a variable
 # Make sure to paste the token in the txt file
 TOKEN = ''
-# with open('./data/Token.txt') as f: 
-#     TOKEN = f.readline().strip()
+with open('./data/Token.txt') as f: 
+    TOKEN = f.readline().strip()
 
 #Get the API keys from the developer.discord.com 
 OWNERID = 254324351296339968
@@ -122,7 +122,7 @@ for filename in os.listdir('./Cogs'):
 # Run our bot
 #REPLIT HOST : Bot of Main.py
 keep_alive()
-TOKEN = os.environ.get("DISCORD_BOT_SECRET")
+# TOKEN = os.environ.get("DISCORD_BOT_SECRET")
 #REPLIT END : Bot of Main.py
 
 bot.run(str(TOKEN)) # Make sure you paste the CORRECT token in the "./data/Token.txt" file

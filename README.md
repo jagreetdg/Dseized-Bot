@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/acm-iem/Dseized-Bot">
-    <img src="https://github.com/s7arborne/Dseized-Bot/blob/master/data/Dseized_Logo.gif" alt="Logo">
+    <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/data/Dseized_Logo.gif" alt="Logo">
   </a>
 
   <h3 align="center">Dseized Bot</h3>
@@ -21,14 +21,14 @@
   <p align="center">
     For all your bot needs !
     <br />
-    <a href="https://github.com/s7arborne/Dseized-Bot"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jagreetdg/Dseized-Bot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/s7arborne/Dseized-Bot">View Demo</a>
+    <a href="https://github.com/jagreetdg/Dseized-Bot">View Demo</a>
     ·
-    <a href="https://github.com/s7arborne/Dseized-Bot/issues">Report Bug</a>
+    <a href="https://github.com/jagreetdg/Dseized-Bot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/s7arborne/Dseized-Bot/issues">Request Feature</a>
+    <a href="https://github.com/jagreetdg/Dseized-Bot/issues">Request Feature</a>
   </p>
 </div>
 
@@ -120,7 +120,7 @@ Change the API key from your own by getting it from developer portal in [Discord
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/s7arborne/Dseized-Bot.git
+   git clone https://github.com/jagreetdg/Dseized-Bot.git
    ```
 2. Enter your token to your generated BOT token in ./data/token.txt
 
@@ -136,7 +136,7 @@ Change the API key from your own by getting it from developer portal in [Discord
 - [] Quality of life changes
 
 
-See the [open issues](https://github.com/s7arborne/Dseized-Bot/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/jagreetdg/Dseized-Bot/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -171,15 +171,15 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/s7arborne/Dseized-Bot.svg?style=for-the-badge
-[contributors-url]: https://github.com/s7arborne/Dseized-Bot/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/s7arborne/Dseized-Bot.svg?style=for-the-badge
-[forks-url]: https://github.com/s7arborne/Dseized-Bot/network/members
-[stars-shield]: https://img.shields.io/github/stars/s7arborne/Dseized-Bot.svg?style=for-the-badge
-[stars-url]: https://github.com/s7arborne/Dseized-Bot/stargazers
-[issues-shield]: https://img.shields.io/github/issues/s7arborne/Dseized-Bot.svg?style=for-the-badge
-[issues-url]: https://github.com/s7arborne/Dseized-Bot/issues
-[license-shield]: https://img.shields.io/github/license/s7arborne/Dseized-Bot.svg?style=for-the-badge
-[license-url]: https://github.com/s7arborne/Dseized-Bot/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/jagreetdg/Dseized-Bot.svg?style=for-the-badge
+[contributors-url]: https://github.com/jagreetdg/Dseized-Bot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jagreetdg/Dseized-Bot.svg?style=for-the-badge
+[forks-url]: https://github.com/jagreetdg/Dseized-Bot/network/members
+[stars-shield]: https://img.shields.io/github/stars/jagreetdg/Dseized-Bot.svg?style=for-the-badge
+[stars-url]: https://github.com/jagreetdg/Dseized-Bot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jagreetdg/Dseized-Bot.svg?style=for-the-badge
+[issues-url]: https://github.com/jagreetdg/Dseized-Bot/issues
+[license-shield]: https://img.shields.io/github/license/jagreetdg/Dseized-Bot.svg?style=for-the-badge
+[license-url]: https://github.com/jagreetdg/Dseized-Bot/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/therealsappy/
+[linkedin-url]: https://www.linkedin.com/in/jagreetdg/

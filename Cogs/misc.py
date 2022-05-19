@@ -10,6 +10,8 @@ import time
 from discord.ext.commands import check
 from mal import *
 
+inv_link = f'https://discord.com/api/oauth2/authorize?client_id=968880340032700466&permissions=8&scope=bot'
+
 class misc(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -21,7 +23,7 @@ class misc(commands.Cog):
 
     @commands.command()
     async def invite(self, ctx):
-        await ctx.send(f'https://discord.com/api/oauth2/authorize?client_id=893777032423571457&permissions=0&scope=bot')
+        await ctx.send(inv_link)
 
     @commands.command()
     async def sh(self, ctx):
