@@ -3,7 +3,10 @@ import discord
 from discord.ext import commands
 
 link = 'https://discord.com/api/oauth2/authorize?client_id=968880340032700466&permissions=8&scope=bot'
-TOKEN = 'OTY4ODgwMzQwMDMyNzAwNDY2.YmlSIQ.52huY0GUk7by4YWFEFnMZ2N1Snk'
+TOKEN = ''
+
+with open('./data/Token.txt') as f: 
+    TOKEN = f.readline().strip()
 
 client = discord.Client()
 #bot = commands.Bot(command_prefix="+")
@@ -50,16 +53,18 @@ async def on_message(message):
     #     return
 
     if(msg=="+wordle"):
-        await message.channel.send("Welcome to the based Wordle Challenge : "+(str(message.author).split("#")[0]))
-        await message.channel.send("Can you prove your Nigerian Identity ?")
-        await message.channel.send("Shit goes like the Normal Wordle :")
+        await message.channel.send("Welcome to the Wordle Challenge : "+(str(message.author).split("#")[0]))
+        # await message.channel.send("Can you prove your Nigerian Identity ?")
+        # await message.channel.send("Shit goes like the Normal Wordle :")
+        await message.channel.send("Rules are same as Normal Wordle :")
         #Choose a secret word
         secret = random.choice(words).upper()
         i = 0
         flag = True
         while i < 6:
             if flag:
-                await message.channel.send('Word Bol Bsdk ! Round : ' + str(i+1))
+                # await message.channel.send('Word Bol Bsdk ! Round : ' + str(i+1))
+                await message.channel.send('Choose your Wordle ! Round : ' + str(i+1))
             flag = True
             worde = await client.wait_for("message")
             word = worde.content.upper()
@@ -68,17 +73,21 @@ async def on_message(message):
                 flag = False
                 continue
             if(worde.author != message.author):
-                await message.channel.send("Kaun Hai Be Tu Imposter "+(str(worde.author).split("#")[0])+" ?")
+                # await message.channel.send("Kaun Hai Be Tu Imposter "+(str(worde.author).split("#")[0])+" ?")
+                await message.channel.send("You're not playing the game "+(str(worde.author).split("#")[0])+" ?")
                 continue
             if(word=="+quit"):
-                await message.channel.send("Fuck Off You Spinless Pussy "+(str(message.author).split("#")[0]))
+                # await message.channel.send("Fuck Off You Spinless Pussy "+(str(message.author).split("#")[0]))
+                await message.channel.send("Guess the Wordle was that hard to make you quit "+(str(message.author).split("#")[0]))
                 return
             if invalid(word):
-                await message.channel.send("Invalid Word Format, You Microscopic Brain Cell Haver")
+                # await message.channel.send("Invalid Word Format, You Microscopic Brain Cell Haver")
+                await message.channel.send("Invalid Word Format !")
                 flag = False
                 continue
             if word==secret:
-                await message.channel.send("Congrats on having a Brain : "+str(i+1)+"/6")
+                # await message.channel.send("Congrats on having a Brain : "+str(i+1)+"/6")
+                await message.channel.send("Congrats on solving the Wordle : "+str(i+1)+"/6")
                 result = wordify(secret,word)
                 await message.channel.send(result[0])
                 await message.channel.send(result[1])
@@ -89,7 +98,8 @@ async def on_message(message):
                 await message.channel.send(result[1])
                 i+=1
         
-        await message.channel.send("Can't even guess a simple word you fkn RTX")
+        # await message.channel.send("Can't even guess a simple word you fkn RTX")
+        await message.channel.send("So Close, Better Luck Next Time !")
         await message.channel.send("Wordle was :")
         result = wordify(secret,secret)
         await message.channel.send(result[0])
