@@ -15,8 +15,10 @@ import time
 from discord.ext.commands import check
 
 # Read the Data files and store them in a variable
-TokenFile = open("./data/Token.txt", "r") # Make sure to paste the token in the txt file
-TOKEN = TokenFile.read() 
+# Make sure to paste the token in the txt file
+TOKEN = ''
+with open('./data/Token.txt') as f: 
+    TOKEN = f.readline().strip()
 
 #Get the API keys from the developer.discord.com 
 OWNERID = 254324351296339968
@@ -104,6 +106,7 @@ for filename in os.listdir('./Cogs'):
         try:
             bot.load_extension(f'Cogs.{filename[:-3]}')
         except Exception:
+            print(f'FAILED TO LOAD EXTENSION {filename}')
             raise Exception
 
 #@bot.command()

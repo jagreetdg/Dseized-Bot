@@ -4,7 +4,6 @@ from discord.ext import commands
 
 link = 'https://discord.com/api/oauth2/authorize?client_id=968880340032700466&permissions=8&scope=bot'
 TOKEN = ''
-
 with open('./data/Token.txt') as f: 
     TOKEN = f.readline().strip()
 
