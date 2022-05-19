@@ -1,1 +1,1 @@
-python wordle_bot.py
+python bot.py
