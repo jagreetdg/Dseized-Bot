@@ -1,3 +1,9 @@
+#REPLIT HOST : Top of Main.py
+
+from webserver import keep_alive
+import os
+#REPLIT END : Top of Main.py
+
 import random
 import discord
 from discord.ext import commands
@@ -142,6 +148,9 @@ def wordify(sec,word):
 
     return result
 
-client.run(TOKEN)
+#REPLIT HOST : Bot of Main.py
+keep_alive()
+TOKEN = os.environ.get("DISCORD_BOT_SECRET")
+#REPLIT END : Bot of Main.py
 
-#print(wordify('PETIS','SAAAS'))
+client.run(TOKEN)
