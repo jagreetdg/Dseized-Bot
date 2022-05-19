@@ -68,6 +68,7 @@ async def on_message(message):
             flag = True
             worde = await client.wait_for("message")
             word = worde.content.upper()
+            # print("WORD : "+word)
             if worde.channel!=message.channel :
                 # await message.channel.send("Galat Channel "+(str(worde.author).split("#")[0])+" ?")
                 flag = False
@@ -76,7 +77,7 @@ async def on_message(message):
                 # await message.channel.send("Kaun Hai Be Tu Imposter "+(str(worde.author).split("#")[0])+" ?")
                 await message.channel.send("You're not playing the game "+(str(worde.author).split("#")[0])+" ?")
                 continue
-            if(word=="+quit"):
+            if(word=="+QUIT"):
                 # await message.channel.send("Fuck Off You Spinless Pussy "+(str(message.author).split("#")[0]))
                 await message.channel.send("Guess the Wordle was that hard to make you quit "+(str(message.author).split("#")[0]))
                 return
@@ -105,11 +106,14 @@ async def on_message(message):
         await message.channel.send(result[0])
 
 def invalid(word):
+    # print("INVALID CHECK :")
     if len(word)!=5:
         return True
     for i in word:
+        # print(i)
         if i<'A' or i>'Z':
-            return False
+            return True
+    return False
 
 def wordify(sec,word):
     result = ["",""]
