@@ -63,7 +63,6 @@
   </a>
   <br>
   <br>
-  <br>
 </div>
 
 
@@ -72,6 +71,8 @@ This repository contains all of the code required. **NOTE** you may need to down
 
 Make sure you have [**Python**](https://python.org) installed on your computer before continuing.
 
+**Find the bot on [top.gg](https://top.gg/bot/968880340032700466)**
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -79,59 +80,71 @@ Make sure you have [**Python**](https://python.org) installed on your computer b
 ### Showcase
 
 <div align="center">
+
+  <h3 align="center">Music Streaming</h3>
+
   <a href="https://github.com/jagreetdg/Dseized-Bot">
     <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/music.png" alt="Logo">
   </a>
-
-  <h3 align="center">Music Streaming</h3>
 
   <p align="center">
     Stream your favourite songs directly in the Voice Chat without any ads :)
   </p>
 </div>
 
+<br>
+
 <div align="center">
+
+<h3 align="center">Wordle Game</h3>
   <a href="https://github.com/jagreetdg/Dseized-Bot">
     <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/wordle.png" alt="Logo">
   </a>
-
-  <h3 align="center">Wordle Game</h3>
 
   <p align="center">
     If you like to solve Wordle Daily, then you'll absolutely love solving Wordles directly in Discord and not just limited to one per day !
   </p>
 </div>
 
+<br>
+
 <div align="center">
+
+<h3 align="center">User Info</h3>
+
   <a href="https://github.com/jagreetdg/Dseized-Bot">
     <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/userinfo.png" alt="Logo">
   </a>
-
-  <h3 align="center">User Info</h3>
 
   <p align="center">
     Get all the nitpicked information on your friends, just don't tell them !
   </p>
 </div>
 
+<br>
+
 <div align="center">
+
+  <h3 align="center">Anime Search</h3>
+
   <a href="https://github.com/jagreetdg/Dseized-Bot">
     <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/animesearch.png" alt="Logo">
   </a>
-
-  <h3 align="center">Anime Search</h3>
 
   <p align="center">
     Wanna find out when your favorite seasonal anime is airing ? Find it out directly in Discord !
   </p>
 </div>
 
+<br>
+
 <div align="center">
+
+<h3 align="center">Manga Search</h3>
+
   <a href="https://github.com/jagreetdg/Dseized-Bot">
     <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/mangasearch.png" alt="Logo">
   </a>
-
-  <h3 align="center">Manga Search</h3>
 
   <p align="center">
     If you ever feel bored and wanna know if your favorite manga overtook Berserk on MAL, you probably won't have to even leave Discord to be disappointed !
@@ -140,6 +153,8 @@ Make sure you have [**Python**](https://python.org) installed on your computer b
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<br>
 
 ### Prerequisites
 
