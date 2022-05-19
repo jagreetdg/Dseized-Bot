@@ -12,8 +12,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/acm-iem/Dseized-Bot">
-    <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/data/Dseized_Logo.gif" alt="Logo">
+  <a href="https://github.com/jagreetdg/Dseized-Bot">
+    <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/Dseized_Logo.gif" alt="Logo">
   </a>
 
   <h3 align="center">Dseized Bot</h3>
@@ -41,7 +41,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#showcase">Showcase</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installing-dependencies">Installing Dependencies</a></li>
         <li><a href="#setting-up-the-bot-and-running-it">Setting up the bot and running it</a></li>
@@ -58,8 +58,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align="centre">
-  <a href="https://github.com/acm-iem/Dseized-Bot">
-    <img src="https://github.com/acm-iem/Dseized-Bot/blob/master/data/About%20the%20project.png" alt="preview" width="1280">
+  <a href="https://github.com/jagreetdg/Dseized-Bot">
+    <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/info.png" alt="preview" width="1280">
   </a>
   <br>
   <br>
@@ -67,7 +67,7 @@
 </div>
 
 
-This repository contains all of the code required **NOTE** you may need to download other dependencies which will be mentioned below. This bot has many features such as playing songs in multiple servers and making a queue for songs. [Discord.py](https://pypi.org/project/discord.py/)
+This repository contains all of the code required. **NOTE** you may need to download other dependencies which will be mentioned below. This bot has many features such as playing songs in multiple servers and making a queue for songs, playing a Wordle Game, searching for Anime/Manga Info, various custom commands. [Discord.py](https://pypi.org/project/discord.py/)
 
 
 Make sure you have [**Python**](https://python.org) installed on your computer before continuing.
@@ -76,19 +76,77 @@ Make sure you have [**Python**](https://python.org) installed on your computer b
 
 
 
-### Built With
+### Showcase
 
-[Python](https://python.org)
+<div align="center">
+  <a href="https://github.com/jagreetdg/Dseized-Bot">
+    <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/music.png" alt="Logo">
+  </a>
+
+  <h3 align="center">Music Streaming</h3>
+
+  <p align="center">
+    Stream your favourite songs directly in the Voice Chat without any ads :)
+  </p>
+</div>
+
+<div align="center">
+  <a href="https://github.com/jagreetdg/Dseized-Bot">
+    <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/wordle.png" alt="Logo">
+  </a>
+
+  <h3 align="center">Wordle Game</h3>
+
+  <p align="center">
+    If you like to solve Wordle Daily, then you'll absolutely love solving Wordles directly in Discord and not just limited to one per day !
+  </p>
+</div>
+
+<div align="center">
+  <a href="https://github.com/jagreetdg/Dseized-Bot">
+    <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/userinfo.png" alt="Logo">
+  </a>
+
+  <h3 align="center">User Info</h3>
+
+  <p align="center">
+    Get all the nitpicked information on your friends, just don't tell them !
+  </p>
+</div>
+
+<div align="center">
+  <a href="https://github.com/jagreetdg/Dseized-Bot">
+    <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/animesearch.png" alt="Logo">
+  </a>
+
+  <h3 align="center">Anime Search</h3>
+
+  <p align="center">
+    Wanna find out when your favorite seasonal anime is airing ? Find it out directly in Discord !
+  </p>
+</div>
+
+<div align="center">
+  <a href="https://github.com/jagreetdg/Dseized-Bot">
+    <img src="https://github.com/jagreetdg/Dseized-Bot/blob/master/screens/mangasearch.png" alt="Logo">
+  </a>
+
+  <h3 align="center">Manga Search</h3>
+
+  <p align="center">
+    If you ever feel bored and wanna know if your favorite manga overtook Berserk on MAL, you probably won't have to even leave Discord to be disappointed !
+  </p>
+</div>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Prerequisites
 
-* Python (Preferablyy version 3.9)
+* Python (Preferably version 3.9)
 * Discord API
 * Youtube-dl
-* MAL (My anime list) API
+* MAL (MyAnimeList) API
 * FFMPEG
 
 
@@ -124,15 +182,15 @@ Change the API key from your own by getting it from developer portal in [Discord
    ```
 2. Enter your token to your generated BOT token in ./data/token.txt
 
-3. Run bot.py
+3. Run com_bot.py for Command mode or client_boy.py for Client mode
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
 
+- [] Integrate Command and Client mode
 - [] Add more functionalities
-- [] Publishing it in a cloud server
 - [] Quality of life changes
 
 

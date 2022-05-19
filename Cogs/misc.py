@@ -19,7 +19,7 @@ class misc(commands.Cog):
     @commands.command()
     async def info(self, ctx):
         #await ctx.send(f'My ping is {round(self.latency*1000, 2)} ms!')
-        await ctx.send(f'`-play\n-pause\n-resume\n-skip\n-stop\n-queue\n-userinfo\n-as anime\n-ms manga\n-invite`')
+        await ctx.send(f'`-play\n-pause\n-resume\n-skip\n-stop\n-queue\n-userinfo\n-as anime\n-ms manga\n-wordle\n-invite`')
 
     @commands.command()
     async def invite(self, ctx):
